@@ -1,0 +1,59 @@
+.header-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(90deg, blue, red); }
+    .header-container .nav-container {
+      position: relative;
+      display: inline-block;
+      top: 15px;
+      left: 15px; }
+      .header-container .nav-container img {
+        width: 70px; }
+    .header-container .nav-links-container {
+      list-style: none;
+      display: inline-block; }
+      .header-container .nav-links-container .dropdown {
+        display: inline-block;
+        position: absolute; }
+      .header-container .nav-links-container .btn {
+        background-color: yellowgreen;
+        border: none;
+        color: white; }
+      .header-container .nav-links-container .btn:hover {
+        background-color: red; }
+      .header-container .nav-links-container .students-drop-down-btn {
+        position: relative;
+        left: 250px;
+        bottom: 0px; }
+      .header-container .nav-links-container #interview-drop-down-btn {
+        position: relative;
+        left: 360px;
+        bottom: 23px;
+        background-color: yellowgreen;
+        border: none; }
+      .header-container .nav-links-container #interview-drop-down-btn:hover {
+        background-color: red; }
+      
+      .header-container .nav-links-container .download-csv-btn {
+        position: relative;
+        left: 570px;
+        bottom: 0px; }
+      .header-container .nav-links-container .nav-link {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 42rem;
+        bottom: 0px;
+        margin-left: 10px; }
+      .header-container .nav-links-container .nav-links {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        position: relative;
+        left: 65rem;
+        bottom: 0px;
+        margin-left: 10px; }
+  
